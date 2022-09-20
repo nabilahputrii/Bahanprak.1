@@ -1,0 +1,15 @@
+data_nabilah=read.delim("clipboard")
+View(data_nabilah)
+mean(data_nabilah$tinggi.badan)
+str(data_nabilah)
+
+data_nabilah_csv = read.csv("C:/Users/hp/Documents/bahanpraktikum1.csv")
+View(data_nabilah_csv)
+mean(data_nabilah_csv$Tinggi.Badan)
+str(data_nabilah_csv)
+
+install.packages("xlsx")
+library("xlsx")
+
+data_nabilah_xlsx = read.xlsx("C:/Users/hp/Documents/bahanpraktikum1.xlsx",1)
+
